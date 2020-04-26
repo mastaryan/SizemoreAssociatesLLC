@@ -33,6 +33,7 @@ body {
 	line-height: 1;
 }
 
+}
 ol, ul {
 	list-style: none;
 }
@@ -329,7 +330,8 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
-	}
+		}
+
 
 		.row > * {
 			box-sizing: border-box;
@@ -2033,6 +2035,10 @@ input, select, textarea {
 							padding-top: 3rem;
 						}
 
+		}
+
+		.row .p {
+			background-color: hotpink;
 		}
 
 /* Box */
