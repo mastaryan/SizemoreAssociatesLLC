@@ -2,7 +2,8 @@
 
 p.titlesection {
     max-width: 100%;
-    text-align: center;
+    text-align: justify;
+    margin-left: 45px;
     color:#c7c9cc;
     padding-left:20px;
     padding-right: 20px;
@@ -42,14 +43,14 @@ h1.h1titlesection {
 @media screen and (max-width: 1680px) {
 
     h1.h1titlesection {
-        font-size: 32pt;
+        font-size: 44pt;
     }
 }
 
 @media screen and (max-width: 1280px) {
 
     h1.h1titlesection {
-        font-size: 28pt;
+        font-size: 36pt;
     }
 }
 
@@ -58,6 +59,43 @@ h1.h1titlesection {
     h1.h1titlesection {
         font-size: 18pt;
     }
+}
+
+h2.h2titlesection {
+    max-width: 100%;
+    text-align: center;
+    /* padding-bottom: 25rem; */
+    color:#c7c9cc;
+    padding-top: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+
+}
+
+@media screen and (max-width: 1680px) {
+
+    h2.h2titlesection {
+        font-size: 24pt;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    h2.h2titlesection {
+        font-size: 16pt;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    h2.h2titlesection {
+        font-size: 12pt;
+    }
+}
+
+p.slider {
+    font-size:28px;
+    color: white;
 }
 
 
