@@ -10,21 +10,21 @@ p.titlesection {
 @media screen and (max-width: 1680px) {
 
     p.titlesection {
-        font-size: 12pt;
+        font-size: 18pt;
     }
 }
 
 @media screen and (max-width: 1280px) {
 
     p.titlesection {
-        font-size: 11pt;
+        font-size: 16pt;
     }
 }
 
 @media screen and (max-width: 360px) {
 
     p.titlesection {
-        font-size: 10pt;
+        font-size: 12pt;
     }
 }
 
@@ -39,21 +39,21 @@ h1.h1titlesection {
 @media screen and (max-width: 1680px) {
 
     h1.h1titlesection {
-        font-size: 12pt;
+        font-size: 32pt;
     }
 }
 
 @media screen and (max-width: 1280px) {
 
     h1.h1titlesection {
-        font-size: 11pt;
+        font-size: 28pt;
     }
 }
 
 @media screen and (max-width: 360px) {
 
     h1.h1titlesection {
-        font-size: 10pt;
+        font-size: 18pt;
     }
 }
 
