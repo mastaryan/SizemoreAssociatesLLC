@@ -2,9 +2,9 @@
 $name = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
-$priority = $_POST['priority'];
+$type = $_POST['type'];
 $message = $_POST['message'];
-$formcontent=" From: $name \n Phone: $phone \n Priority: $priority \n Message: $message";
+$formcontent=" From: $name \n Phone: $phone \n Type: $type \n Message: $message";
 $recipient = "sizemore.ryan@gmail.com";
 $subject = "Sizemore & Associates Contact Form";
 $mailheader = "From: $email \r\n";
